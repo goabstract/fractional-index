@@ -4,7 +4,8 @@ A Javascript implementation of fractional indexes for sorting items, as describe
 originally in: https://observablehq.com/@dgreensp/implementing-fractional-indexing
 
 Given two indexes the library will always return a fractional index at the midpoint
-between the two.
+between the two. This is particularly useful for realtime collaboration and cases
+where sending an entire set of ordered items back to the server is undesirable.
 
 ## Install
 
